@@ -1,0 +1,44 @@
+body {
+
+  margin: 5%;
+  font-family: "Tahoma";
+}
+div{
+
+}
+.title {
+  font-weight: bold;
+  display:inline;
+  color: slateGray;
+  font-size:xx-large;
+  text-decoration: none;
+}
+h2{
+  font-weight: bold;
+  display:inline;
+  color:black;
+  font-size:xx-large;
+}
+
+a{
+  font-weight: normal;
+  color: black;
+
+}
+.project {
+  background-color: slateGray;
+  font-family: "Tahoma";
+  text-decoration: none;
+  color: slateGray;
+  font-weight: normal;
+  padding: 1%;
+  margin: 2%;
+}
+.wLink {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.date {
+  text-align:left;
+}
