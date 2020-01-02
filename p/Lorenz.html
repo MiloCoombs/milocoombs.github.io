@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../s1.css">
+    <title>Milo's Website</title>
+
+  </head>
+  <body>
+    <a href="../index.html" class="title">Milo's Website:</a>
+    <h2>Lorenz Emulator</h2>
+
+    <p>Recently I decided to try and write a program that emulates a C20th rotor based cypher. I originally intended to make an enigma cypher, but eventually settled on a Lorenz cypher. The Lorenz cypher is one of the more complicated WWII cyphers, using a pair of independently moving sets of wheels, each creating a pseudorandom byte which are then XORed with each-other then with a byte of plaintext to give a byte of cypher text. As the Lorenz machines were intended for use in teletype machines it used a variation of the Baudot code, which has 5 bit in bytes.</p>
+
+    <h3>The Lorenz Machine Explained:</h3>
+    <p1>The machine consists of 12 wheels, each with many pins around their circumfrence which represent binary digits. They consisted of two sets of five which generate the pseudorandom bytes and two additional wheels to add complication.</p1>
+
+    <p>Each byte-generating set of wheels consists of five wheels which all move in unison by one pin position at a time. After each step the pins showing are the byte generated, e.g. if the wheels showed pins in the position up, up, down, up, down, the byte would be 11010. If all the wheels had the same number of pins, then this pattern would repeat every full revolution of a wheel, which would not be very random. To solve this the number of pins on each wheel was chosen to be co-prime with the other wheels in that set (ie. they have no common factors), this meant that rather than repeating once every revolution, the wheels only repeated once after a number of steps equal to the product of the number of pins on all the wheels in the set. For example, if a set of wheels contained five wheels with 59 pins each, it would repeat every 59 steps, whereas a set with wheels containing 43, 47, 51, 53 and 59 pins on each wheel would, despite having fewer pins, repeat only every 11-billion steps. Many contemporary cyphers used only this and simply XORed the resulting byte with the plaintext; however, the Lorenz cypher went further.
+    </p>
+    <p>The Lorenz cypher used two of these 5-wheel sets and XORed the result to give even more random bit. Simply XORing two sets of 5 wheels would have not had much effect, in fact if they had the same&nbsp; number and distribution of pins on both sets it would have precisely no effect on the strength of the cypher whilst doubling its mechanical complexity. To avoid this, the second set of 5 wheels was not moved for every byte/letter, instead it was moved depending on the results of the other two wheels. One of the two “motor” wheels moved one step for every letter, the second moved once for every letter only if the first was showing a 1 (or high pin). Finally the set of 5 wheels moved only when the second motor wheel showed a high value.</p>
+    <h3>The program</h3>
+
+    The program consists of three main sections, one which converts a numerical string into a the positions of the pins on the wheels, one which moves the wheels and processes letters and a user interface. More information on the workings of the program can be seen by downloading it.
+
+    The program can be <a href="Lorenz/Lorenz.py">downloaded here</a>.
+
+
+    <p class="date"> December 2018</p>
+
+  </body>
+</html>
