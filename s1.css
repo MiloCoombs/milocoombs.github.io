@@ -1,3 +1,6 @@
+:root{
+  --main-colour: #ad1f1f;
+}
 body {
 
   margin: 5%;
@@ -7,9 +10,9 @@ div{
 
 }
 .title {
-  font-weight: bold;
+  font-weight: normal;
   display:inline;
-  color: slateGray;
+  color: var(--main-colour);
   font-size:xx-large;
   text-decoration: none;
 }
@@ -19,26 +22,32 @@ h2{
   color:black;
   font-size:xx-large;
 }
+th, tr {
+  vertical-align: top;
+}
+
 
 a{
   font-weight: normal;
   color: black;
 
 }
-.project {
-  background-color: slateGray;
-  font-family: "Tahoma";
-  text-decoration: none;
-  color: slateGray;
-  font-weight: normal;
-  padding: 1%;
-  margin: 2%;
+.column{
+  width: 200px;
+  text-align:justify;
 }
-.wLink {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+
 .date {
+  font-style:italic;
   text-align:left;
+}
+.picLink{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
