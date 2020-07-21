@@ -2,9 +2,13 @@
   --main-colour: #ad1f1f;
 }
 body {
-
-  margin: 5%;
+  background-color: white;
   font-family: "Tahoma";
+  background-color: white;
+  width: 86%;
+  border: 2px solid black;
+  padding: 2%;
+  margin: 5%;
 }
 div{
 
@@ -15,6 +19,9 @@ div{
   color: var(--main-colour);
   font-size:xx-large;
   text-decoration: none;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
 }
 h2{
   font-weight: bold;
@@ -28,10 +35,16 @@ th, tr {
 
 
 a{
+  color:inherit;
   font-weight: normal;
-  color: black;
+  text-decoration: underline;
+
 
 }
+.licence{
+  color: grey;
+}
+
 .column{
   width: 200px;
   text-align:justify;
