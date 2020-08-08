@@ -1,33 +1,46 @@
 :root{
-  --main-colour: #ad1f1f;
+  --main-colour-: #ad1f1f;
+  --main-colour: #000000;
 }
 body {
   background-color: white;
-  font-family: "Tahoma";
+  background-image: url('mediam/GrStripe.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: 'FuturaRennerRegular';
+  font-weight: normal;
+  font-style: normal;
+
+}
+.main{
   background-color: white;
   width: 86%;
   border: 2px solid black;
   padding: 2%;
   margin: 5%;
 }
-div{
-
-}
 .title {
   font-weight: normal;
   display:inline;
   color: var(--main-colour);
-  font-size:xx-large;
+  font-size:2.5em;
   text-decoration: none;
   text-transform: uppercase;
   font-style: italic;
   font-weight: bolder;
+
 }
 h2{
-  font-weight: bold;
+  font-weight: normal;
   display:inline;
   color:black;
-  font-size:xx-large;
+  font-size:2.5em;
+  font-family: 'FuturaRennerLight';
+  margin-bottom: 1em;
+}
+h3{
+  line-height: 0;
+
 }
 th, tr {
   vertical-align: top;
@@ -42,7 +55,10 @@ a{
 
 }
 .licence{
-  color: grey;
+  color: black;
+  background-color: white;
+  margin-left: 5%;
+  width: 90%;
 }
 
 .column{
@@ -64,3 +80,16 @@ a{
   bottom: 8px;
   left: 16px;
 }
+@font-face {
+    font-family: 'FuturaRennerLight';
+        src: url('webfonts/FuturaRenner-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'FuturaRennerRegular';
+        src: url('webfonts/FuturaRenner-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
