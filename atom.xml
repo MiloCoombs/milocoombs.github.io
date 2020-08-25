@@ -11,8 +11,8 @@
 
 
 	<entry>
-		<title>Atom-Powered Robots Run Amok</title>
-		<link href="http://example.org/2003/12/13/atom03" />
+		<title>Tap wrench project</title>
+		<link href="http://milocoombs.github.io/p/tap-wrench.html" />
 		<link rel="alternate" type="text/html" href="http://example.org/2003/12/13/atom03.html"/>
 		<link rel="edit" href="http://example.org/2003/12/13/atom03/edit"/>
 		<id>urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a</id>
@@ -24,7 +24,7 @@
 			</div>
 		</content>
 		<author>
-			<name>John Doe</name>
+			<name>Milo Coombs</name>
 			<email>johndoe@example.com</email>
 		</author>
 	</entry>
