@@ -29,6 +29,7 @@ h2{
   background-color:black;
   display:inline;
   position:relative;
+  padding-left: 0.5%;
   left:-1.5%;
 }
 mark{
@@ -40,7 +41,8 @@ mark{
 .yellow-textbox{
   background-color: white;
   border-style: solid none none solid;
-  padding: 0 1% 0 1%;
+  border-width: 1vh;
+  padding: 0 1vh 0 1vh;
   margin: 0 5% 2.5em 0
 }
 .icon{
