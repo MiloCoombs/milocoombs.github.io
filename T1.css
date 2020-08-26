@@ -13,6 +13,7 @@ body {
   margin:0;
   padding:0;
   text-decoration: none;
+  text-rendering:geometricPrecision;
 
 }
 p{
@@ -23,7 +24,7 @@ h2{
   background-color:black;
   display:inline;
   position:relative;
-  left:-1%;
+  left:-1.5%;
 }
 mark{
   color:white;
