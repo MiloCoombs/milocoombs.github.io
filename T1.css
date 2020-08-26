@@ -1,6 +1,78 @@
 body {
-  font-family: sans-serif;
+  background-color: white;
+  background: url('media/BG3.png') no-repeat center center fixed;
+  /*background-image: url('media/Na7Stripe.png');*/
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position:top;
+  font-family: 'FuturaRennerRegular';
+  font-weight: normal;
+  font-style: normal;
+  margin:0;
+  padding:0;
+  text-decoration: none;
+
 }
-h1 {
-  
+p{
+  text-align:
 }
+h2{
+  color:white;
+  background-color:black;
+  display:inline;
+  position:relative;
+  left:-1%;
+}
+mark{
+  color:white;
+  background-color: black;
+
+}
+
+.yellow-textbox{
+  background-color: white;
+  border-style: solid none none solid;
+  padding: 0 1% 0 1%;
+  margin: 0 5% 2.5em 0
+}
+.icon{
+  width: 3em;
+  padding: 1%;
+  display: block;
+}
+a.biglink{
+  text-decoration: underline;
+  background-color: black;
+  color: white;
+}
+a.biglink:hover{
+  background-color: white;
+  color: black;
+}
+a{
+    color:inherit;
+    font-weight: normal;
+    text-decoration: underline;
+}
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+@font-face {
+    font-family: 'FuturaRennerLight';
+        src: url('webfonts/FuturaRenner-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaRennerRegular';
+        src: url('webfonts/FuturaRenner-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+div.container hr {display: block; clear: left; margin: -0.66em 0;
+  visibility: hidden;}

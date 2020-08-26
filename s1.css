@@ -3,10 +3,12 @@
   --main-colour: #000000;
 }
 body {
+  /*
   background-color: white;
   background-image: url('media/Na7Stripe.png');
-  /*background-image: url('media/Na7Stripe.png');*/
-  background-repeat: repeat;
+  /*background-image: url('media/Na7Stripe.png');
+  background-repeat: repeat;*/
+  background: url('media/BG3.png') no-repeat center center fixed;
   background-attachment: fixed;
   font-family: 'FuturaRennerRegular';
   font-weight: normal;
@@ -86,6 +88,9 @@ a:hover {
 .date {
   font-style:italic;
   text-align:left;
+}
+.footnote{
+  vertical-align: baseline;
 }
 .picLink{
   position: relative;
