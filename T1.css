@@ -1,3 +1,6 @@
+:root{
+  --defaultSize: 3vh;
+}
 body {
   background-color: white;
   background: url('media/BG3.png') no-repeat center center fixed;
@@ -10,14 +13,16 @@ body {
   font-family: 'FuturaRennerRegular';
   font-weight: normal;
   font-style: normal;
+  font-size: var(--defaultSize);
   margin:0;
   padding:0;
   text-decoration: none;
   text-rendering:geometricPrecision;
 
 }
-p{
-  text-align:
+
+td{
+  font-size: var(--defaultSize);
 }
 h2{
   color:white;
