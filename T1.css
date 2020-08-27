@@ -1,3 +1,6 @@
+:root{
+  --defaultSize: 1em;
+}
 body {
   background-color: white;
   background: url('media/BG3.png') no-repeat center center fixed;
@@ -10,20 +13,24 @@ body {
   font-family: 'FuturaRennerRegular';
   font-weight: normal;
   font-style: normal;
+  font-size: var(--defaultSize);
   margin:0;
   padding:0;
   text-decoration: none;
-
 }
-p{
-  text-align:
+
+td{
+  font-size: var(--defaultSize);
+  vertical-align: top;
 }
 h2{
   color:white;
   background-color:black;
   display:inline;
+  padding-left: 0.5vh;
   position:relative;
-  left:-1%;
+
+  left:-1.5vh;
 }
 mark{
   color:white;
@@ -34,11 +41,12 @@ mark{
 .yellow-textbox{
   background-color: white;
   border-style: solid none none solid;
-  padding: 0 1% 0 1%;
+  border-width: 1vh;
+  padding: 0 1vh 0 1vh;
   margin: 0 5% 2.5em 0
 }
 .icon{
-  width: 3em;
+  width: 7.5vh;
   padding: 1%;
   display: block;
 }
