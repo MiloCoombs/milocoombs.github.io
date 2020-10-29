@@ -61,15 +61,15 @@
     <div id="child" style="float:left; position:relative; top:2.5em; left:5%;" class="yellow-textbox">
         <!--<img src="media/mugshot.png" alt="Portrait" width="100em" align="right">-->
         <p>Blah blah blah something something something rhubarb rhubarb rhubarb.</p>
-<h2>Social:</h2>
-        <hr>
-        <div class="social"><a href="https://www.facebook.com/milo.coombs.925">f</a></div>
-        <div class="social"><a href="https://www.instagram.com/milocoombs/">i</a></div>
-        <p>I can be found on the usual social media platforms using the links to the right, however I am not very active (ie. completely inactive).</p>
+	<h2>Social:</h2>
+            <hr>
+            <div class="social"><a href="https://www.facebook.com/milo.coombs.925">f</a></div>
+            <div class="social"><a href="https://www.instagram.com/milocoombs/">i</a></div>
+            <p>I can be found on the usual social media platforms using the links to the right, however I am not very active (ie. completely inactive).</p>
         <h2>Credits:</h2>
         <p>The entire contents of this site is lisenced under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless specified otherwise. Main font is <a href="https://fontlibrary.org/en/font/futura-renner">Futura Renner</a>.
  
-        <p>The entire contents of this site is lisenced under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless specified otherwise. Main font is <a href="https://fontlibrary.org/en/font/futura-renner">Futura Renner</a>.
+
     </div>
     <div style="position:absolute; top:0%; left:1%; z-index:1;">
       <h1><mark>About</mark></h1>
