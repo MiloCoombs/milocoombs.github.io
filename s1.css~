@@ -105,7 +105,7 @@ a:hover {
 }
 @font-face {
     font-family: 'FuturaRennerLight';
-        src: url('webfonts/Jost/OpenType/Jost-200-Thin.otf') format('opentype');
+        src: url('webfonts/FuturaRenner-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

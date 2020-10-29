@@ -10,7 +10,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position:top;
-  font-family: 'Jost-500', 'FuturaRennerRegular', sans-serif;
+  font-family: 'FuturaRennerExperimental', 'FuturaRennerRegular', sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: var(--defaultSize);
@@ -103,6 +103,12 @@ a:hover {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'FuturaRennerExperimental';
+        src: url('webfonts/FuturaRenner-Regular0.2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 @font-face {
     font-family: 'Jost-500';
     src: url('webfonts/Jost/OpenType/Jost-500-Medium.otf') format('opentype');
