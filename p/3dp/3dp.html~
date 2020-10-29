@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../../s1.css">
+    <title>RepStrap</title>
+    <link rel="shortcut icon" type="image/png" href="../../media/favicon.svg"/>
+  </head>
+  <body>
+    <div class="main">
+    <img src="../../media/favicon.svg" class="icon">
+
+    <a href="../../index.html" class="title">Milo Coombs:</a>
+    <h2>RepStrap 3D Printer</h2>
+    <p>This is my third 3d printer, following a Prusa simplified Mendel and a Prism Mendel each canibalising the expensive parts of the previous. I wanted to make it as simple and easy to adjust as possible, since tramming the previous printers was very time consuming. It's also intended to be portable, as in doesn't need recalibration after moving. This is acchived by having the frame supported on three feet so that it is allways supported in the same way regardless of the surface it is on.</p>
+    <table>
+      <tr>
+        <td>
+          <p class = column>The design also makes use of my access to machine tools. The parts are machined and most parts are bolted directly to the aluminium tubes this removes the need for 3D printed parts and reduces the part count quite a lot.</p>
+          <p class = column>The print quality acchived with this printer is substatially better than what either of the previous printers could provide. This should be improved further by replacing the 6mm belts seen with 10mm belts and the addition of a part fan.</p>
+
+          <p class="date"> July 2020</p>
+        </td>
+        <td>
+          <table width="100%" align="right">
+            <tr>
+              <td rowspan="3">
+                <a href="6.JPG"><img src="6_small.JPG" width=100% ></a>
+              </td>
+              <td>
+                <a href="8.JPG"> <img src="8_small.JPG" width=100%></a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href="7.JPG"> <img src="7_small.JPG" width=100%></a>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><table>
+        <tr>
+          <td>
+            <a href="9.JPG"> <img src="9_small.JPG" width=100%></a>
+          </td>
+          <td>
+            <a href="11.JPG"> <img src="11_small.JPG" width=100%></a>
+          </td>
+        </tr>
+        </table></td>
+      </tr>
+
+
+      </table>
+  </div>
+  </body>
+</html>

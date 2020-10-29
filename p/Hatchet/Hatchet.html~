@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../s1.css">
+    <title>Milo Coombs</title>
+    <link href="../atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
+    <link rel="shortcut icon" type="image/png" href="../media/favicon.png"/>
+
+  </head>
+  <body>
+  <div class="main">
+    <img src="../media/favicon.svg" class="icon">
+
+    <a href="../index.html" class="title">Milo Coombs:</a>
+    <h2>Hatchet</h2>
+    <table>
+    <tr>
+      <td>
+        <p class = column>I found an old axe head in the garage without a handle and decided to make a new one. As I wanted to make a short handle I could use almost any wood for the handle so decided on some reclaimed oak. The tools used were a knife, coping saw, chisels, a hammer and sand paper.</p>
+        <p class="date"> March 2019</p>
+      </td>
+      <td>
+        <table width="100%" align="right">
+          <tr>
+            <td>
+              <a href="Hatchet/1.JPG"><img src="Hatchet/1_small.JPG" width=100% ></a>
+            </td>
+            <td>
+              <a href="Hatchet/13.JPG"> <img src="Hatchet/13_small.JPG" width=100%></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="Hatchet/3.JPG"><img src="Hatchet/3_small.JPG" width=100% ></a>
+            </td>
+            <td>
+              <a href="Hatchet/14.JPG"> <img src="Hatchet/14_small.JPG" width=100%></a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    </table>
+  </div>
+  </body>
+</html>
