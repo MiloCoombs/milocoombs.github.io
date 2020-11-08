@@ -1,8 +1,8 @@
 #This code is licensed under the creative commons attribution share-alike license 4.0.
 #CC-BY-SA-4.0
 baudot = ["?","T","<","O"," ","H","N","M",">","L","R","G","I","P","C","V","E","Z","D","B","S","Y","F","X","A","W","J","^","U","Q","K","!"]
-wheelPop = [43,47,51,53,59,37,61,41,31,29,26,23]#The number of pins on each wheel, co prime within each set of wheels (PPPPPMMXXXXX).
-#this 126 digit hex value holds the config of the machine
+wheelPop = [43,47,51,53,59,37,61,41,31,29,26,23]#The number of pins on each wheel, coprime within each set of wheels (PPPPPMMXXXXX).
+#this 126 didgit hex value holds the config of the machine
 key = 0xcda8564cd29e4bc7d72ac08c43cfa0852281369b91c2d586a95c95283567f64225436788ffb87bc992addc4276223daac55c5c3ede3cf3052617b4a7a898ea
 pinCount = sum(wheelPop)
 maxKey = 2**pinCount
@@ -84,7 +84,7 @@ def tickwheels(): # if the program is modified to a different bit-length this wi
 #    print(wheelPos)
 
 def printWheels(wheels):
-    print("Current wheel settings generated from key:\n1 represents a raised pin and 0 represents a lowered pin.\nThe wheels are shown with the first column representing the position [00000,00,00000]")
+    print("Current wheel settings generated from key:\n1 represents a raised pin and 0 represents a lowered pin.\nThe wheels are shown with the first coloumn representing the position [00000,00,00000]")
     pos = 0
     names = ["P1[","P2[","P3[","P4[","P5[","MA[","MB[","C1[","C2[",'C3[','C4[','C5[']
     for x in wheels:
@@ -126,10 +126,10 @@ def main():
     end = False
     while end == False:
         print("""To demonstrate the cypher the following modes are available:
-1 - Encrypt strings
+1 - Encyrpt strings
 2 - Print the curent settings on the wheels
 3 - Print the key (hardcoded)
-4 - Reset wheels to starting position, necessary for decryption
+4 - Reset wheels to starting position, necesary for decryption
 Q - End program
 Enter the choice you want to select:""")
         choice = input().upper()        
@@ -151,7 +151,7 @@ Enter the choice you want to select:""")
             time.sleep(0.5)
             
 def stringWise():
-    string = input("Enter a string to be encoded. Only letters in the Baudot code can be used, ie letters, and spaces:\n")
+    string = input("Enter a string to be encoded. Only letters in the baudot code can be used, ie letters, and spaces:\n")
     valid = True
     for char in list(string):
         if char.upper() not in baudot:
@@ -159,7 +159,7 @@ def stringWise():
     if valid == True:
         print(encodeString(string))
     else:
-        print("Invalid input. Does not contain only Baudot characters.")
+        print("Invalid input. Does not contain only baudot characters.")
     input("\nPRESS ENTER")
 
 main()

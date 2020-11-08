@@ -11,7 +11,7 @@
 
   <div id="wrapper" style=" float:left; position:relative; width:55%;">
     <div id="child" style="float:left; position:relative; top:2.5em; left:5%;" class="yellow-textbox">
-        <p>Welcome to the personal website of Milo Coombs. This site is a collection of information on my projects and anything else I feel like posting. The website is still under construction, for the old website use the link to the top right. I hope you find something interesting.</p>
+        <p>Welcome to the personal website of Milo Coombs (he/him). This site is a collection of information on my projects and anything else I feel like posting. The website is still under construction, for the old website use the link to the top right. I hope you find something interesting.</p>
         <h2>Updates:</h2>
         <table>
           <tr>
@@ -33,9 +33,9 @@
         </table>
         <h2> Blog: </h2>
         <table>
-	  <tr>
-		  <td>September 2020</td>
-		  <td>I made a <a href="b/checkerboard/checkerboard.html">checkerboard cake</a>!</td>
+          <tr>
+            <td>September 2020</td>
+            <td>I made a <a href="b/chequerboard/chequerboard.html">chequerboard cake</a>!</td>
           </tr>
           <tr>
             <td>July 2020</td>
@@ -43,7 +43,7 @@
           </tr>
           <tr>
             <td>December 2018</td>
-            <td>I made a script to <a href="b/Lorenz.html">emulate the Lorenz cypher</a>.</td>
+            <td>I made a script to <a href="b/Lorenz/Lorenz.html">emulate the Lorenz cypher</a>.</td>
           </tr>
         </table>
     </div>
@@ -60,14 +60,14 @@
   <div id="wrapper" style=" float:left; position:relative; left:25%; width:55%;">
     <div id="child" style="float:left; position:relative; top:2.5em; left:5%;" class="yellow-textbox">
         <!--<img src="media/mugshot.png" alt="Portrait" width="100em" align="right">-->
-        <p>Blah blah blah something something something rhubarb rhubarb rhubarb.</p>
-	<h2>Social:</h2>
+        <p>This mobile-unfriendly website serves as my alternative to social media. There are no analytics or feedback; I have no idea id anyone is reading this.</p>
+        <h2>Social:</h2>
             <hr>
             <div class="social"><a href="https://www.facebook.com/milo.coombs.925">f</a></div>
             <div class="social"><a href="https://www.instagram.com/milocoombs/">i</a></div>
-            <p>I can be found on the usual social media platforms using the links to the right, however I am not very active (ie. completely inactive).</p>
+            <p>I can be found on the usual social media platforms using the links to the right, however I am not very active (ie. Completely inactive).</p>
         <h2>Credits:</h2>
-        <p>The entire contents of this site is lisenced under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless specified otherwise. Main font is <a href="https://fontlibrary.org/en/font/futura-renner">Futura Renner</a>.
+        <p>The entire contents of this site is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless specified otherwise. <a href=webfonts/FuturaRenner-Regular0.2>Main font</a> is modified from <a href="https://fontlibrary.org/en/font/futura-renner">Futura Renner</a> and is licensed under the <a href=https://scripts.sil.org/OFL>SIL Open Font License</a>.
  
 
     </div>

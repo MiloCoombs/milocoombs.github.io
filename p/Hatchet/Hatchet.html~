@@ -1,16 +1,16 @@
 <html>
   <head>
-    <link rel="stylesheet" href="../s1.css">
+    <link rel="stylesheet" href="../../s1.css">
     <title>Milo Coombs</title>
-    <link href="../atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
-    <link rel="shortcut icon" type="image/png" href="../media/favicon.png"/>
+    <link href="../../atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
+    <link rel="shortcut icon" type="image/png" href="../../media/favicon.png"/>
 
   </head>
   <body>
   <div class="main">
-    <img src="../media/favicon.svg" class="icon">
+    <img src="../../media/favicon.svg" class="icon">
 
-    <a href="../index.html" class="title">Milo Coombs:</a>
+    <a href="../../index.html" class="title">Milo Coombs:</a>
     <h2>Hatchet</h2>
     <table>
     <tr>
@@ -22,18 +22,18 @@
         <table width="100%" align="right">
           <tr>
             <td>
-              <a href="Hatchet/1.JPG"><img src="Hatchet/1_small.JPG" width=100% ></a>
+              <a href="1.JPG"><img src="1_small.JPG" width=100% ></a>
             </td>
             <td>
-              <a href="Hatchet/13.JPG"> <img src="Hatchet/13_small.JPG" width=100%></a>
+              <a href="13.JPG"> <img src="13_small.JPG" width=100%></a>
             </td>
           </tr>
           <tr>
             <td>
-              <a href="Hatchet/3.JPG"><img src="Hatchet/3_small.JPG" width=100% ></a>
+              <a href="3.JPG"><img src="3_small.JPG" width=100% ></a>
             </td>
             <td>
-              <a href="Hatchet/14.JPG"> <img src="Hatchet/14_small.JPG" width=100%></a>
+              <a href="14.JPG"> <img src="14_small.JPG" width=100%></a>
             </td>
           </tr>
         </table>
