@@ -4,75 +4,70 @@
   <!--<link href="../atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" /-->
   <link rel="shortcut icon" type="image/png" href="media/favicon.svg"/>
   <link rel="import" href="header.html">
-  <link rel="stylesheet" href="T1.css">
+<style>
+
+:root{
+  --sidebar-width: 260px;
+}
+
+body {
+    margin: 0;
+}
+.sidebar{
+  border-style: none;
+  position:fixed;
+  left:0%;
+  height:100%;
+  width: var(--sidebar-width);
+}
+.mosaic{
+  border-style: none;
+  width: calc(100% - 8.5vw - var(--sidebar-width));
+  position:fixed;
+  left:var(--sidebar-width);
+  height:100%;
+  margin: 2.5em 7vw 0 1.5vw;
+
+}
+.mobMosaic{
+  border: none none solid none;
+  border-width: 1px;
+}
+.deskMenu{
+    height: 100%;
+}
+.mobMenu{
+  border: none;
+  width: calc(100% - 2em);
+  height: 50%;
+  margin: 0 1em 0 1em;
+}
+@media screen and (max-width:50em){/*Hack to make dynamically rearrange for mobile/desktop*/
+    .mobMenu{display:initial;}
+    .deskMenu{display:none}
+}
+@media screen and (min-width:51em){
+    .mobMenu{display:none;}
+    .deskMenu{display:initial}
+}    
+  
+</style>
 </head>
 <body>
-  <a href="index.html"> <img src="media/favicon.svg" class="icon" style="float:left;"></a>
+  <iframe src="menu.html" title="Menu sidebar-thing"  class="deskMenu sidebar"></iframe>
 
-  <div id="wrapper" style=" float:left; position:relative; width:55%;">
-    <div id="child" style="float:left; position:relative; top:2.5em; left:5%;" class="yellow-textbox">
-        <p>Welcome to the personal website of Milo Coombs (he/him). This site is a collection of information on my projects and anything else I feel like posting. The website is still under construction, for the old website use the link to the top right. I hope you find something interesting.</p>
-        <h2>Updates:</h2>
-        <table>
-          <tr>
-            <td>July 2020</td>
-            <td>I made a <a href="p/tap-wrench/tap-wrench.html">tap-wrench</a></td>
-          </tr>
-          <tr>
-            <td>July 2020</td>
-            <td>Finally finished my long running 3rd <a href="p/3dp/3dp.html">3D printer</a></td>
-          </tr>
-          <tr>
-            <td>March 2019</td>
-            <td>Re hafted a <a href="p/Hatchet/Hatchet.html">hatchet</a></td>
-          </tr>
-          <tr>
-            <td>February 2019</td>
-            <td>Made an <a href="p/ASL/ASL.html">American longbow</a></td>
-          </tr>
-        </table>
-        <h2> Blog: </h2>
-        <table>
-          <tr>
-            <td>September 2020</td>
-            <td>I made a <a href="b/chequerboard/chequerboard.html">chequerboard cake</a>!</td>
-          </tr>
-          <tr>
-            <td>July 2020</td>
-            <td>You can easily convert a macro adapter to an <a href="b/AstroAdapter/AstroAdapter.html">astrophotography adapter</a>.</td>
-          </tr>
-          <tr>
-            <td>December 2018</td>
-            <td>I made a script to <a href="b/Lorenz/Lorenz.html">emulate the Lorenz cypher</a>.</td>
-          </tr>
-        </table>
-    </div>
-    <div style="position:absolute; transform: rotateZ(-20deg); top:2.5em; left:105%; width:20%;">
-      <a href="oldIndex.html" class="biglink"> Old Index </a>
-    </div>
+  <iframe src="mosaic.html" title="Mosaic selector thing" class="deskMenu mosaic"></iframe>
+  
+  <iframe src="menu.html" title="Moble sidebar alternative" class="mobMenu"></iframe>
+  <iframe src="mosaic.html" title="Moble sidebar alternative" class="mobMenu mobMosaic"></iframe>
 
-    <div style="position:absolute; top:0%; left:1%; z-index:1;">
-      <h1><mark>Index</mark></h1>
-    </div>
-  </div>
+  <!-- <div class="mobMenu" id="wrapper" style=" float:left; position:relative; left:5%; width:55%;">
+      <div id="child" style="float:left; position:relative; top:2.5em; left:5%;" class="yellow-textbox">
+         <iframe src="menu.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+      </div>
+      <div style="position:absolute; top:0%; left:1%; z-index:1;">
+        <h1><mark>Sitemap</mark></h1>
+      </div>
+  </div> -->
 
-
-  <div id="wrapper" style=" float:left; position:relative; left:25%; width:55%;">
-    <div id="child" style="float:left; position:relative; top:2.5em; left:5%;" class="yellow-textbox">
-        <!--<img src="media/mugshot.png" alt="Portrait" width="100em" align="right">-->
-        <p>This is my mobile-unfriendly Web1.0 website, more info to come.</p>
-        <h2>Social:</h2>
-            <hr>
-            <div class="social"><a href="https://www.facebook.com/milo.coombs.925">f</a></div>
-            <div class="social"><a href="https://www.instagram.com/milocoombs/">i</a></div>
-            <p>I can be found on the usual social media platforms using the links to the right, however I am not very active (ie. Completely inactive).</p>
-        <h2>Credits:</h2>
-        <p>The entire contents of this site is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless specified otherwise. <a href=webfonts/FuturaRenner-Regular0.2>Main font</a> is modified from <a href="https://fontlibrary.org/en/font/futura-renner">Futura Renner</a> and is licensed under the <a href=https://scripts.sil.org/OFL>SIL Open Font License</a>.
- 
-
-    </div>
-    <div style="position:absolute; top:0%; left:1%; z-index:1;">
-      <h1><mark>About</mark></h1>
-    </div>
-  </div>
 </body>

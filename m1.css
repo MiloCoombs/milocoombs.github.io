@@ -1,0 +1,38 @@
+body{
+    background-color: white;
+    font-family: 'FuturaRennerRegular';
+    font-size: 1em;
+    margin: 0 0 0 1em;
+    padding: 0;
+    text-decoration: none;
+}
+a{
+    color:inherit;
+    font-weight: normal;
+    text-decoration: underline;
+}
+a:hover {
+    background-color: black;
+    color: white;
+}
+p{
+    text-align: justify;
+}
+@font-face {
+    font-family: 'FuturaRennerLight';
+        src: url('webfonts/FuturaRenner-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaRennerRegular';
+        src: url('webfonts/FuturaRenner-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon{
+  width: 1.5em;
+  padding: 1%;
+  display: block;
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+
+<base target="_parent">
+<title>Example</title>
+<style>
+body {
+  height: 100%;
+  /*background: linear-gradient(0deg, rgba(181,0,255,1) 0%, rgba(0,212,255,1) 100%);*/
+  background: white;
+  /* background-image: url('media/GrStripe.png'); */
+  background-size:;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: 'FuturaRennerExperimental';
+  }
+#grid { 
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(10em, 20em));*/
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 5vh;
+  
+  }
+#grid > a {
+  
+  /*! background: gold; */
+  border-radius: 0vh;
+  /*! padding: none; */
+  /*! margin: none; */
+  padding-top: 100%;
+  position: relative;
+}
+.img{
+  
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textonly{
+  background: linear-gradient(0deg, rgba(181,0,255,1) 0%, rgba(0,212,255,1) 100%) ;
+}
+.text {
+  position: absolute;
+  top: 10;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-style: normal;
+  color: white;
+  text-shadow: 1px 1px black;
+  vertical-align: sub;
+  background: black;
+}
+a.il{
+    color:inherit;
+    font-weight: normal;
+    text-decoration: underline;
+}
+a.il:hover {
+    background-color: black;
+    color: white;
+}
+a.img{
+  box-shadow: 0.5em 0.5em 0 black;
+}
+a.img:hover{
+  box-shadow: 0.7em 0.7em 0 black;
+}
+.legal {
+  color: grey;
+  text-align: center;
+  margin: 0 5vh 0 5vh;
+  padding: 2.5em 7vw 0 1.5vw;
+
+}
+@font-face {
+    font-family: 'FuturaRennerExperimental';
+        src: url('webfonts/FuturaRenner-Regular0.2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+</style>
+<div id="grid">
+  <a href="p/RG65/RG65.html"class="img" style="background-image: url('p/RG65/1_small.JPG');">
+      <p class="text">RG65 Model Yacht</p>
+  </a>
+  <a href="p/ASL/ASL.html" class="img" style="background-image: url('p/ASL/3_small.JPG');">
+      <p class="text">Longbow</p>
+  </a>
+  <a href="p/3dp/3dp.html" class="img" style="background-image: url('p/3dp/8_small.JPG');">
+      <p class="text">3D printer</p>
+  </a>
+  <a href="p/CanSat/CanSat.html" class="img" style="background-image: url('p/CanSat/3_small.JPG');">
+      <p class="text">School Cansat competition</p>
+  </a>
+  <a href="p/hatchet/hatchet.html" class="img" style="background-image: url('p/hatchet/1_small.JPG');">
+      <p class="text">Haft for a hatchet</p>
+  </a>
+  <a href="p/tap-wrench/tap-wrench.html" class="img" style="background-image: url('p/tap-wrench/9_small.JPG');">
+      <p class="text">Tap wrench</p>
+  </a>
+  <a href="b/AstroAdapter/AstroAdapter.html" class="img" style="background-image: url('b/AstroAdapter/2_small.JPG');">
+      <p class="text">Astrophotography adapter</p>
+  </a>
+  <a href="b/chequerboard/chequerboard.html" class="img" style="background-image: url('b/chequerboard/19_small.JPG');">
+      <p class="text">Chequerboard cake</p>
+  </a>
+</div>
+<p class="legal">The contents of this site are licensed under a <a class="il" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless specified otherwise. <a class="il" href=webfonts/FuturaRenner-Regular0.2.ttf>Main font</a> is modified from <a class="il" href="https://fontlibrary.org/en/font/futura-renner">Futura Renner</a> and is licensed under the <a class="il" href=https://scripts.sil.org/OFL>SIL Open Font License</a>. Made with Vim.
