@@ -1,84 +1,8 @@
 <!doctype html>
-
+<link rel="stylesheet" href="mosaic.css">
 <base target="_parent">
 <title>Example</title>
-<style>
-body {
-  height: 100%;
-  /*background: linear-gradient(0deg, rgba(181,0,255,1) 0%, rgba(0,212,255,1) 100%);*/
-  background: white;
-  /* background-image: url('media/GrStripe.png'); */
-  background-size:;
-  background-repeat: repeat;
-  background-attachment: fixed;
-  font-family: 'FuturaRennerExperimental';
-  }
-#grid { 
-  display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(10em, 20em));*/
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 5vh;
-  
-  }
-#grid > a {
-  
-  /*! background: gold; */
-  border-radius: 0vh;
-  /*! padding: none; */
-  /*! margin: none; */
-  padding-top: 100%;
-  position: relative;
-}
-.img{
-  
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.textonly{
-  background: linear-gradient(0deg, rgba(181,0,255,1) 0%, rgba(0,212,255,1) 100%) ;
-}
-.text {
-  position: absolute;
-  top: 10;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  font-style: normal;
-  color: white;
-  text-shadow: 1px 1px black;
-  vertical-align: sub;
-  background: black;
-}
-a.il{
-    color:inherit;
-    font-weight: normal;
-    text-decoration: underline;
-}
-a.il:hover {
-    background-color: black;
-    color: white;
-}
-a.img{
-  box-shadow: 0.5em 0.5em 0 black;
-}
-a.img:hover{
-  box-shadow: 0.7em 0.7em 0 black;
-}
-.legal {
-  color: grey;
-  text-align: center;
-  margin: 0 5vh 0 5vh;
-  padding: 2.5em 7vw 0 1.5vw;
 
-}
-@font-face {
-    font-family: 'FuturaRennerExperimental';
-        src: url('webfonts/FuturaRenner-Regular0.2.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-</style>
 <div id="grid">
   <a href="p/RG65/RG65.html"class="img" style="background-image: url('p/RG65/1_small.JPG');">
       <p class="text">RG65 Model Yacht</p>
@@ -92,8 +16,8 @@ a.img:hover{
   <a href="p/CanSat/CanSat.html" class="img" style="background-image: url('p/CanSat/3_small.JPG');">
       <p class="text">School Cansat competition</p>
   </a>
-  <a href="p/hatchet/hatchet.html" class="img" style="background-image: url('p/hatchet/1_small.JPG');">
-      <p class="text">Haft for a hatchet</p>
+  <a href="p/Hatchet/Hatchet.html" class="img" style="background-image: url('p/Hatchet/1_small.JPG');">
+      <p class="text">Haft for a Hatchet</p>
   </a>
   <a href="p/tap-wrench/tap-wrench.html" class="img" style="background-image: url('p/tap-wrench/9_small.JPG');">
       <p class="text">Tap wrench</p>
