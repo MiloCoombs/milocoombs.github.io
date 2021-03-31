@@ -1,20 +1,19 @@
 body {
   height: 100%;
   /*background: linear-gradient(0deg, rgba(181,0,255,1) 0%, rgba(0,212,255,1) 100%);*/
-  background: white;
   /* background-image: url('media/GrStripe.png'); */
   background-size:;
   background-repeat: repeat;
   background-attachment: fixed;
-  font-family: 'FuturaRennerExperimental';
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+  width: calc(100vw - 5vh);
+  margin-top: 2.5em;
   }
-#grid { 
+#grid{ 
   display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(10em, 20em));*/
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
   grid-gap: 5vh;
-  
-  }
+}
 #grid > a {
   
   /*! background: gold; */
@@ -69,7 +68,7 @@ a.img:hover{
 }
 @font-face {
     font-family: 'FuturaRennerExperimental';
-        src: url('webfonts/FuturaRenner-Regular0.2.ttf') format('truetype');
+        src: url('webfonts/BetecknaGS.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }

@@ -10,7 +10,7 @@ body {
   background-repeat: repeat;*/
   background: url('media/BG3.jpg') no-repeat center center fixed;
   background-attachment: fixed;
-  font-family: 'FuturaRennerExperimental';
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
   font-weight: normal;
   font-style: normal;
 
@@ -43,7 +43,7 @@ h2{
   display:inline;
   color:black;
   font-size:2.5em;
-  font-family: 'FuturaRennerLight';
+  font-family: 'FuturaRennerExperimental';
   margin-bottom: 1em;
 }
 h3{

@@ -1,73 +1,63 @@
 <html>
 <head>
-  <title>Index of Milo Coombs' website</title>
-  <!--<link href="../atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" /-->
+  <title>Index of Milo's website</title>
   <link rel="shortcut icon" type="image/png" href="media/favicon.svg"/>
-  <link rel="import" href="header.html">
 <style>
-
 :root{
   --sidebar-width: 260px;
+  --mob-sidebar-width: 40%;
+  --switch-width: 650px
 }
-
-body {
-    margin: 0;
+body{
+  margin: 0;
 }
-.sidebar{
+iframe{
   border-style: none;
-  position:fixed;
-  left:0%;
-  height:100%;
-  width: var(--sidebar-width);
-}
-.mosaic{
-  border-style: none;
-  width: calc(100% - 8.5vw - var(--sidebar-width));
-  position:fixed;
-  left:var(--sidebar-width);
-  height:100%;
-  margin: 2.5em 7vw 0 1.5vw;
-
-}
-.mobMosaic{
-  border: none none solid none;
-  border-width: 1px;
-}
-.deskMenu{
-    height: 100%;
 }
 .mobMenu{
-  border: none;
-  width: calc(100% - 2em);
-  height: 50%;
-  margin: 0 1em 0 1em;
+  display:block;
 }
-@media screen and (max-width:50em){/*Hack to make dynamically rearrange for mobile/desktop*/
-    .mobMenu{display:initial;}
-    .deskMenu{display:none}
+@media screen and (max-width:650px){/*dynamically rearrange for mobile/desktop*/
+   /*iframe{
+     height: 50%;
+     width: 100%;
+     margin: none;
+     left: 0%;
+   }*/
+   .mosaic{
+     width: calc(100% - 1.5vw - var(--mob-sidebar-width));
+     position:fixed;
+     left:var(--mob-sidebar-width);
+     height:100%;
+     margin: 0 0 0 1.5vw;
+   }
+   .sidebar{
+     position:fixed;
+     left:0%;
+     height:100%;
+     width: var(--mob-sidebar-width);
+   }
 }
-@media screen and (min-width:51em){
-    .mobMenu{display:none;}
-    .deskMenu{display:initial}
-}    
-  
+@media screen and (min-width:650px){
+   .mosaic{
+     width: calc(100% - 8.5vw - var(--sidebar-width));
+     position:fixed;
+     left:var(--sidebar-width);
+     height:100%;
+     margin: 0 7vw 0 1.5vw;
+   }
+   .sidebar{
+     position:fixed;
+     left:0%;
+     height:100%;
+     width: var(--sidebar-width);
+   }
+}
+
 </style>
 </head>
 <body>
-  <iframe src="menu.html" title="Menu sidebar-thing"  class="deskMenu sidebar"></iframe>
-
-  <iframe src="mosaic.html" title="Mosaic selector thing" class="deskMenu mosaic"></iframe>
-  
-  <iframe src="menu.html" title="Moble sidebar alternative" class="mobMenu"></iframe>
-  <iframe src="mosaic.html" title="Moble sidebar alternative" class="mobMenu mobMosaic"></iframe>
-
-  <!-- <div class="mobMenu" id="wrapper" style=" float:left; position:relative; left:5%; width:55%;">
-      <div id="child" style="float:left; position:relative; top:2.5em; left:5%;" class="yellow-textbox">
-         <iframe src="menu.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
-      </div>
-      <div style="position:absolute; top:0%; left:1%; z-index:1;">
-        <h1><mark>Sitemap</mark></h1>
-      </div>
-  </div> -->
-
+  <iframe src="menu.html" title="Menu sidebar-thing"  class="sidebar"> </iframe>
+  <iframe src="mosaic.html" title="Mosaic selector thing" class="mosaic"> </iframe>
 </body>
+

@@ -1,10 +1,13 @@
 body{
     background-color: white;
-    font-family: 'FuturaRennerRegular';
-    font-size: 1em;
+    font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    font-size: 0.9em;
     margin: 0 0 0 1em;
     padding: 0;
     text-decoration: none;
+}
+td{
+    font-size: 0.9em;
 }
 a{
     color:inherit;
@@ -17,19 +20,6 @@ a:hover {
 }
 p{
     text-align: justify;
-}
-@font-face {
-    font-family: 'FuturaRennerLight';
-        src: url('webfonts/FuturaRenner-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'FuturaRennerRegular';
-        src: url('webfonts/FuturaRenner-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 .icon{
   width: 1.5em;
